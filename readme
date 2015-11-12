@@ -1,0 +1,23 @@
+IR assignment files:
+
+
+>>corpus folder
+contains 768 files about top 1000 articles from wikipedia
+
+1.token.py (to tokenize the files)
+2.stemmer.c (to stem the file)
+3.Gui.java (file to create graphical interface and this calls InvertedIndex.java)
+4.InvertedIndex.java (to buildindex, to search the index)
+
+To compile
+2.cc stemmer.c  -o stemmer
+3&4. javac Gui.java InvertedIndex.java
+
+To run
+1.python token.py
+2. ./stemmer
+3. java Gui
+
+Instructions:
+
+Enter the query in the text field in the java applet created and click "search" button. The search results will be displayed the text are below it.
